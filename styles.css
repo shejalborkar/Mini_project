@@ -1,0 +1,478 @@
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*hero section*/
+#home {
+    background-color: #aca5a5;
+    padding: 5em 0;
+    text-align: center;
+}
+
+#home video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+ /* portfolio section */
+ #portfolio {
+    padding: 5em 0;
+ }
+
+.categories {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filter-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.video-thumb {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.video-model {
+    
+}
+
+.video-model iframe {
+    height: 80vh;
+    width: 80%;
+    margin: 10vh auto;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+#home {
+    background-color: #000;
+    padding: 5em 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+#home video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 5em 0;
+}
+
+.categories {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filter-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+
+}
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #fff;
+
+}
+
+.under {
+    background-color: ;
+    color: #fff;
+}
+
+.header {
+    background-color: #652ab3;
+}
+
+
+.about {
+    font-style: italic;
+    text-align: center;
+}
+
+
+.services {
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+.portfolio {
+    font-style: italic;
+    text-align: center;
+}
+
+.contact {
+    font-style: italic;
+    text-align: center;
+    style:solid;
+    border: #000;
+}
+.company { 
+    
+}
+.get-help {
+    
+}
+#contact {
+    height: fit-content;
+}
+
+
+.footer0 {
+    font-style: italic;
+    text-align: center;
+}
+
+.footer1{
+    
+    text-align: center;
+}
+
+.footer2 {
+    text-align: center;
+    display: inline-flex;
+     color: #2ab338;
+    align-items: center;
+}
+.model {
+    background-color: #000;
+}
+
+.footer3 {
+text-align: center;
+}
+.company {
+    
+    text-align:center ;
+}
+
+.hero {
+    color: black;
+    text-align: center;
+    alignment: space 1px;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn {
+    background-color: green;
+    box-shadow: #aca5a5;
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+    
+}
+.content {
+    text-align: right;
+    alignment: space 1px;
+}
+
+.nav {
+    background-color: #2ab338;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.nav.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav a:hover {
+    color: #ccc;
+}
+
+.contact {
+    background-color:#8fdf97;
+    padding: 10px;
+    
+
+}
+
+.contact-form {
+    min-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 10px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.send-btn {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.send-btn:hover {
+    background-color:green;
+    
+}
+
+.sub {
+    width: 100%;
+    margin: 40px auto;
+    padding: 40px;
+    height: 20px;
+    background-color: #8fdf97;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0, 0);
+    font-size: medium;
+   
+}
+
+.product {
+    color: #2ab338;
+     text-align: center;
+}
+
+.div {
+    color: #fff;
+}
+.content{
+    text-align: center;
+}
+
+.hero {
+    color: white;
+    
+}
+.social-media {
+    color: #fff;
+}
+
+.services-container {
+   display: inline-flex; 
+   border: #000;
+
+
+}
+
+.portfolio-container {
+     
+}
+.filter-buttons button { 
+background-color: #282828; 
+color: white; 
+border: none; 
+padding: 0.8rem 1.5rem; 
+margin: 0 0.5rem; 
+cursor: pointer; 
+border-radius: 5px; 
+} 
+.filter-buttons button:hover { 
+background-color: #ff6347; 
+}
+
+#video-gallery { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    padding: 2rem; 
+    } 
+    .video-container { 
+    width: 30%; 
+    margin-bottom: 2rem; 
+    } 
+    video { 
+    width: 100%; 
+    border-radius: 10px; 
+    } 
+    @media (max-width: 768px) { 
+    .video-container { 
+    } 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
